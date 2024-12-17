@@ -27,7 +27,7 @@ const TopNav = () => {
           <button className="px-4 text-gray-600">
             <MagnifyingGlass size={16} />
           </button>
-        </div>
+        </div>3
         {/* Support Section */}
         <div className="flex items-center">
           <div className="text-right mr-2">

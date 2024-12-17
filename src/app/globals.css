@@ -2,22 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  primary-color: "#CC0D39",
-  secondary-color: "#F7941F",
-  secondary-light-color: "#FEEB9D",
-  primary-dark-color: "#13172B",
-  white-color: "#ffffff",
-  text-color: "#5E626F",
-  light-gray: "#AEB0B6",
-  main-bg: "#FFFAF3",
-  gray-bg: "#F9F3F0",
-  --font-16: 16px;
-  --font-18: 18px;
-  --heading-font: "Aoboshi One", sans-serif;
-  --body-font: "DM Sans", sans-serif;
-} */
-
 body {
-  font-family:"Aoboshi One", sans-serif;
+  font-family: 'Aoboshi One', sans-serif;
+}
+
+.ant-dropdown-menu {
+  width: 200px;
+  padding: 15px 30px !important;
+}
+
+.ant-dropdown-menu-item {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 40px !important;
+  color: #13172b !important;
+  padding: 0 5px !important;
+  border-bottom: 1px solid rgba(48, 34, 34, 0.1);
+}
+
+.ant-dropdown-menu-item-active {
+  background-color: transparent !important;
+  color: #cc0d39 !important;
+  font-weight: 600 !important;
 }
